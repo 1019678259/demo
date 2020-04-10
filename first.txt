@@ -1,12 +1,19 @@
 第二次尝试
- HEAD
+HEAD
 hahahahah
 
-看了好多资料终于搞定了git 中clone命令报错这个问题，废话不多说直接上步骤希望对大家有帮助。
+ pair.  Enter file in which to save the key (/Users/username/.ssh/id_rsa):
+ 这里的username是电脑上的用户名，这个地址也是文件的存储地址，然后我们按
 
-   1   删除.ssh文件夹（直接搜索该文件夹）下的known_hosts(手动删除即可，不需要git）
+为什么这样对我
 
-   2   在下载好的Git中的bin目录下打开bash.exe输入命令ssh-keygen -t rsa -C "username" (注：username为你git上的用户名)，如果执行成功。返回：
+1、首先我得重新在git设置一下身份的名字和邮箱（因为当初都忘了设置啥了，因为遇到坑了）进入到需
+要提交的文件夹底下（因为直接打开git Bash，在没有路径的情况下，根本没！法！改！刚使用git时遇到的坑。。。）
 
-       Generating public/private rsa key pair.
-       Enter file in which to save the key (/Users/username/.ssh/id_rsa): //这里的username是电脑上的用户名，这个地址也是文件的存储地址，然后我们按
+git config --global user.name "yourname"
+
+git config --global user.email“your@email.com"
+
+注：yourname是你要设置的名字，your@email是你要设置的邮箱。
+
+
