@@ -2,4 +2,11 @@
  HEAD
 hahahahah
 
-为什么这样对我
+看了好多资料终于搞定了git 中clone命令报错这个问题，废话不多说直接上步骤希望对大家有帮助。
+
+   1   删除.ssh文件夹（直接搜索该文件夹）下的known_hosts(手动删除即可，不需要git）
+
+   2   在下载好的Git中的bin目录下打开bash.exe输入命令ssh-keygen -t rsa -C "username" (注：username为你git上的用户名)，如果执行成功。返回：
+
+       Generating public/private rsa key pair.
+       Enter file in which to save the key (/Users/username/.ssh/id_rsa): //这里的username是电脑上的用户名，这个地址也是文件的存储地址，然后我们按
