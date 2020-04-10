@@ -16,7 +16,4 @@ git config --global user.email“your@email.com"
 
 注：yourname是你要设置的名字，your@email是你要设置的邮箱。
 
-ooooooooooooooooo
-ooooooooooooooooooooooooooooo
-oooooooooooooooooooo
-ohoznxclvknzlcnvlxcnvlzxvzx
+
